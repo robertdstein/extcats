@@ -22,3 +22,7 @@ The two main classes are:
     - CatalogQuery: will perform queries on the catalogs.
 
 See examples and explanations in the notebook folder.
+
+In order to run this tool, you require a local mongo daemon to be running. MongoDb is a database software, and can be found at https://www.mongodb.com/download-center#production, or installed via Homebrew for Mac users (e.g https://treehouse.github.io/installation-guides/mac/mongo-mac.html).
+
+Once you have installed Mongo, you can start a Mongo Daemon by entering the command "mongod" in a terminal. Once this step is complete, the extcats packages can then be run.
